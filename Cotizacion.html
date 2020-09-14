@@ -8,16 +8,16 @@
 
 <div class="w3-sidebar w3-bar-block w3-light-grey w3-card" style="width:160px">
     <img src="truck-icon.svg" class="w3-round" alt="truck">
-  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'London')">1.Informacion Cliente</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Paris')">2.Line Items</button>
-  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Tokyo')">3.Link para Imprimir</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'London')">Informacion Cliente</button>
+   <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Austin')">Crear Rutas</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Paris')">Crear Cotizacion</button>
+  <button class="w3-bar-item w3-button tablink" onclick="openCity(event, 'Tokyo')">Link para Imprimir</button>
 </div>
-
 <div style="margin-left:160px">
-  <div class="w3-padding">Nuvocargo Quote system</div>
+  <div class="w3-padding">Onboard a New Customer / Dar de alta un Cliente Nuevo</div>
   <div class="w3-container">
 <div class="w3-bar">
-    <a href="index.html"><button class="w3-button w3-green">Home</button></a>
+  <a href="index.html"><button class="w3-button w3-green">Home</button></a>
   <a href="New%20Customer.html"><button class="w3-button w3-green"> Onboard a New Customer</button></a>
   <a href="DocumentRequirements.html"><button class="w3-button w3-green">Document Requierments</button></a>
   <a href="Prices.html"><button class="w3-button w3-green">Prices</button></a>
@@ -25,23 +25,32 @@
   <a href="Cotizacion.html"><button class="w3-button w3-green">Quote System</button></a>
 </div>
 </div>
+    
+<div style="margin-left:160px">
+  <div class="w3-padding">Nuvocargo Quote system</div>
+
   <div id="London" class="w3-container city" style="display:none">
     <h2>Informacion Cliente</h2>
     <p>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shrWYOjsWlIE0NVfn?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shr7FE4P0Mmun4eno?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
       </p>
   </div>
-
-  <div id="Paris" class="w3-container city" style="display:none">
-    <h2>Line Items</h2>
+<div id="Austin" class="w3-container city" style="display:none">
+    <h2>Crear Rutas</h2>
     <p>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shrGq4fY1pDFLJwz1?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrx1GrOlU15m6mLd?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+      </p>
+  </div>
+  <div id="Paris" class="w3-container city" style="display:none">
+    <h2>Crear Cotizacion</h2>
+    <p>
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrm1zH3v9PHc30dT?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
         
       </p>
   </div>
 
   <div id="Tokyo" class="w3-container city" style="display:none">
-      <h2>Cotizacion</h2>
+      <h2>Imprimir Cotizacion</h2>
       <p>
         <a href="https://airtable.com/invite/l?inviteId=invrLL3Fvy5Ju6Ddf&inviteToken=cae5355282b26403a88f97c71110019721ccb4e49c41f142d57e63e6f817ae2e">Airtable</a>
       </p>
